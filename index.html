@@ -1,51 +1,42 @@
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-}
+<section id="education">
+    <h2>Education</h2>
+    <div class="education-entry">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3 style="margin: 0; font-size: 1.2rem;">Bachelor of Science in Accounting</h3>
+            <span style="font-weight: 600; color: var(--gold);">Expected April 2026</span>
+        </div>
+        <p style="margin-top: 0.5rem; color: var(--slate);">
+            Focusing on advanced financial reporting, auditing standards, and tax law.
+        </p>
+    </div>
+</section>
 
-.image-card {
-    background: var(--white);
-    border: 1px solid #e2e8f0;
-    padding: 10px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-}
-
-.image-card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    display: block;
-    border-radius: 2px;
-}
-
-.image-caption {
-    padding: 1rem 0.5rem;
-    font-size: 0.9rem;
-    color: var(--slate);
-    text-align: center;
-    font-style: italic;
-}
-
-/* ... existing styles ... */
-
-<section id="values">
-    <h2>Values & Interests</h2>
-    <p class="experience-text">
-        While my career is focused on accounting and technical efficiency, I believe a strong professional foundation is built on personal values. I prioritize family, financial freedom, and spending time outdoors, which keeps me grounded and motivated.
-    </p>
+<section id="experience">
+    <h2>Professional Experience</h2>
     
-    <div class="image-grid">
-        <div class="image-card">
-            <img src="folder/istockphoto-1447123729-612x612.jpg" alt="Family values">
-            <div class="image-caption">Commitment to Family & Tradition</div>
+    <div class="experience-entry" style="margin-bottom: 2.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3 style="margin: 0; font-size: 1.2rem;">Tax Intern</h3>
+            <span style="font-weight: 600; color: var(--gold);">January 2026 – Present</span>
         </div>
+        <div style="font-style: italic; color: var(--slate); margin-bottom: 0.75rem;">Professional Tax Firm</div>
+        <ul style="color: var(--slate); padding-left: 1.2rem;">
+            <li>Assisting in the preparation of corporate and individual tax returns.</li>
+            <li>Conducting research on complex tax code issues to ensure compliance.</li>
+            <li>Collaborating with senior partners to streamline document intake processes.</li>
+        </ul>
+    </div>
 
-        <div class="image-card">
-            <img src="folder/depositphotos_51818167-stock-photo-family-portrait.jpg" alt="Personal Interests">
-            <div class="image-caption">Balance & Personal Growth</div>
+    <div class="experience-entry">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h3 style="margin: 0; font-size: 1.2rem;">Audit Automation Project (Lead)</h3>
+            <span style="font-weight: 600; color: var(--gold);">January 2026</span>
         </div>
+        <div style="font-style: italic; color: var(--slate); margin-bottom: 0.75rem;">Technical Development</div>
+        <ul style="color: var(--slate); padding-left: 1.2rem;">
+            <li>Engineered custom VBA macros in Excel to automate the audit of large journal entry datasets.</li>
+            <li>Implemented validation logic to detect anomalies and ensure data integrity across thousands of rows.</li>
+            <li>Reduced manual verification time significantly while increasing audit coverage.</li>
+        </ul>
     </div>
 </section>

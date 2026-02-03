@@ -1,3 +1,53 @@
+<style>
+    :root {
+        --uvu-green: #0b5c2e;
+        --uvu-blue: #004b8d;
+        --uvu-gold: #d6a100;
+        --uvu-slate: #334155;
+        --uvu-light: #f4f8f6;
+        --gold: var(--uvu-gold);
+        --slate: var(--uvu-slate);
+    }
+
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #f4f8f6 0%, #e6f0ff 100%);
+        color: var(--uvu-slate);
+    }
+
+    main.resume {
+        max-width: 900px;
+        margin: 2.5rem auto;
+        padding: 2.5rem;
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #dbe5df;
+        border-top: 6px solid var(--uvu-green);
+        box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+    }
+
+    h2 {
+        color: var(--uvu-blue);
+        border-bottom: 2px solid var(--uvu-green);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        color: var(--uvu-green);
+    }
+
+    section {
+        margin-bottom: 2.5rem;
+    }
+
+    ul li::marker {
+        color: var(--uvu-gold);
+    }
+</style>
+
+<main class="resume">
 <section id="education">
     <h2>Education</h2>
     <div class="education-entry">
@@ -40,3 +90,4 @@
         </ul>
     </div>
 </section>
+</main>

@@ -1,0 +1,51 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.image-card {
+    background: var(--white);
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.image-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px;
+}
+
+.image-caption {
+    padding: 1rem 0.5rem;
+    font-size: 0.9rem;
+    color: var(--slate);
+    text-align: center;
+    font-style: italic;
+}
+
+/* ... existing styles ... */
+
+<section id="values">
+    <h2>Values & Interests</h2>
+    <p class="experience-text">
+        While my career is focused on accounting and technical efficiency, I believe a strong professional foundation is built on personal values. I prioritize family, financial freedom, and spending time outdoors, which keeps me grounded and motivated.
+    </p>
+    
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="folder/istockphoto-1447123729-612x612.jpg" alt="Family values">
+            <div class="image-caption">Commitment to Family & Tradition</div>
+        </div>
+
+        <div class="image-card">
+            <img src="folder/depositphotos_51818167-stock-photo-family-portrait.jpg" alt="Personal Interests">
+            <div class="image-caption">Balance & Personal Growth</div>
+        </div>
+    </div>
+</section>
